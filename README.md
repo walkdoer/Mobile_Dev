@@ -1,8 +1,11 @@
 移动端WebAapp开发资料
 =============================
-标签：`Backbone`, `SPA`
 
-###常见问题
+### 资料
++ [针对V8引擎进行优化JS](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers)
+
+
+### 常见问题
 1. 如何去掉点击元素之后的蓝色矩形层？
 ```css
 /*
