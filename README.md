@@ -2,18 +2,13 @@
 =============================
 
 ### 资料
+
+#### 性能优化
+
 + [针对V8引擎进行优化JS](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers)
++ [Rendering: repaint, reflow/relayout, restyle](http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/)
++ [7 steps to better JavaScript](http://www.creativebloq.com/netmag/7-steps-better-javascript-51411781?utm_source=javascriptweekly&utm_medium=email)
 
-
-### 常见问题
-1. 如何去掉点击元素之后的蓝色矩形层？
-```css
-/*
-使用-webkit-tap-highlight-color:rgba(255, 0, 0, 0.5);
-*/
-/*去除页面所有元素的点击后出现的蓝色矩形*/
-html *{-webkit-tap-highlight-color:rgba(255, 0, 0, 0.5);}
-```
 
 ### 工具
 
@@ -30,6 +25,14 @@ html *{-webkit-tap-highlight-color:rgba(255, 0, 0, 0.5);}
 
 
 
+### 常见问题
 
-### 参考
-1. [7 steps to better JavaScript](http://www.creativebloq.com/netmag/7-steps-better-javascript-51411781?utm_source=javascriptweekly&utm_medium=email)
+1. 如何去掉点击元素之后的蓝色矩形层？
+```css
+/*
+使用-webkit-tap-highlight-color:rgba(255, 0, 0, 0.5);
+*/
+/*去除页面所有元素的点击后出现的蓝色矩形*/
+html *{-webkit-tap-highlight-color:rgba(255, 0, 0, 0.5);}
+```
+
